@@ -1,0 +1,113 @@
+/* Styles globaux */
+body.collection-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header lumineux */
+.light-header {
+    text-align: center;
+    padding: 40px;
+    background-color: #e6f0ff;
+    color: #3b5998;
+    border-bottom: 2px solid #d0e4ff;
+}
+
+.light-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #3354a0;
+}
+
+.light-header .subtitle {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.light-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.light-menu li a {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 20px;
+    border: 2px solid #3b5998;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-menu li a:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+/* Section de collection en grille lumineuse */
+.light-collection-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.light-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Style lumineux pour les cartes */
+.light-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    color: #333;
+}
+
+.light-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.light-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.light-card h2 {
+    font-size: 1.6em;
+    color: #3b5998;
+    margin-bottom: 10px;
+}
+
+.light-card p {
+    font-size: 0.95em;
+    color: #666;
+}
+
+/* Footer lumineux */
+.light-footer {
+    background-color: #e6f0ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 2px solid #d0e4ff;
+}
+
